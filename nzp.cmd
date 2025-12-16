@@ -32,6 +32,9 @@ if %FIRSTTIME%==1 (
         -v "%TOOLBOX_ROOT%/config:/workspace/config" ^
         -v "%TOOLBOX_ROOT%/repos:/workspace/repos" ^
         -v "%TOOLBOX_ROOT%/python_envs:/workspace/python_envs" ^
+        -v "%TOOLBOX_ROOT%/game:/workspace/game" ^
+        -e TOOLBOX_HOST_OS="Windows" ^
+        -e TOOLBOX_HOST_ARCH="x86_64" ^
         %IMAGE_NAME% fetch
     echo -----------------------------------------
 )
@@ -41,6 +44,9 @@ docker run --platform=linux/amd64 --rm -i ^
     -v "%TOOLBOX_ROOT%/config:/workspace/config" ^
     -v "%TOOLBOX_ROOT%/repos:/workspace/repos" ^
     -v "%TOOLBOX_ROOT%/python_envs:/workspace/python_envs" ^
+    -v "%TOOLBOX_ROOT%/game:/workspace/game" ^
+    -e TOOLBOX_HOST_OS="Windows" ^
+    -e TOOLBOX_HOST_ARCH="x86_64" ^
     %IMAGE_NAME% %*
 
 endlocal

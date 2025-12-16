@@ -27,6 +27,11 @@
             "name": "quakec",
             "url": "https://github.com/nzp-team/quakec.git",
             "target": "repos/quakec"
+        },
+        {
+            "name": "trenchbroom-profile",
+            "url": "https://github.com/nzp-team/trenchbroom-profile.git",
+            "target": "repos/trenchbroom-profile"
         }
     ]
 }
