@@ -11,3 +11,5 @@ cd /workspace/repos/quakec
 tools/qc-compiler-gnu.sh $@
 
 deactivate || true
+
+cp -a /workspace/repos/quakec/build/fte/. /workspace/game/nzp/
