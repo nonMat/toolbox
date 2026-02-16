@@ -27,11 +27,11 @@ Toolbox can do the following in its current state:
 2: [Download](https://github.com/nzp-team/toolbox/archive/refs/heads/main.zip) this repository (releases are TBD and depend on growth and strategy changes)
 
 3: Go to the toolbox directory you have downloaded and:  
-  3a: On systems with Bash or other UNIX shells:
+  a: On systems with Bash or other UNIX shells:
   ```bash
   ./nzp fetch
   ```
-  3b: On Windows (You can write CMD on the address bar of the File Explorer to open CMD on that directory):
+  b: On Windows (You can write CMD on the address bar of the File Explorer to open CMD on that directory):
   ```cmd
   nzp.cmd fetch
   ```
