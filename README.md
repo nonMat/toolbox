@@ -26,7 +26,7 @@ Toolbox can do the following in its current state:
 
 2: [Download](https://github.com/nzp-team/toolbox/archive/refs/heads/main.zip) this repository (releases are TBD and depend on growth and strategy changes)
 
-3: Go to the toolbox directory you have downloaded and:  
+3: Go to the toolbox directory you have downloaded via command line and based on your system do the following:  
   a: On systems with Bash or other UNIX shells:
   ```bash
   ./nzp fetch
